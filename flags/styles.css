@@ -1,0 +1,152 @@
+
+.france {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+.firstF{
+    background-color: blue;
+    padding: 100px;
+    
+    grid-column: 1/2;
+}
+.secondF{
+    background-color: #ffffff;
+    padding: 100px;
+    grid-column: 2/3;
+}
+.thirdF{
+    background-color: #ED2938;
+    padding: 100px;
+    grid-column: 3/4;
+}
+.germany{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, 66px);
+}
+.firstG{
+    background-color: black;
+    padding: 66px;
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+.secondG{
+    background-color: #DE0002;
+    padding: 66px;
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+.thirdG{
+    background-color: #FFCE00;
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+.madagascar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+.firstM{
+    background-color: #ffffff;
+    grid-row: 1/-1;
+    grid-column: 1/2;
+    padding: 66px;
+}
+.secondM{
+    background-color: #fc3e32;
+    grid-row: 1/2;
+    grid-column: 2/-1;
+    padding: 66px;
+}
+.thirdM{
+    background-color: #007e39;
+    grid-row: 2/-1;
+    grid-column: 2/-1;
+    padding: 66px;
+}
+.switz{
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16,30px);
+    background-color: red;
+}
+.firstS{
+   grid-row: 4/15;
+   grid-column: 9/12;
+   background-color: white;
+   padding: 50px;
+}
+.secondS{
+    grid-row: 8/9;
+    grid-column: 4/17;
+    background-color: white;
+    padding: 50px;
+}
+.swed{
+    display: grid;
+    background-color: #0269A6;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16,30px);
+}
+.firstSw {
+    grid-column: 7/9;
+    grid-row: 1/-1;
+    background-color:  #FECC00;
+}
+.secondSw {
+    grid-column: 1/19;
+    grid-row: 8/10;
+    background-color:  #FECC00;
+}
+.gamb{
+    background-color:  #0D1D8B;
+    display: grid;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16,30px);
+}
+.firstGa {
+    grid-column: 1/18;
+    grid-row: 1/6;
+    background-color: #CE1127;
+    margin-bottom: 5px;
+}
+.secondGa {
+    grid-column: 1/18;
+    grid-row: 12/18;
+    background-color: #3B7827;
+}
+.jap{
+    display: grid;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16,30px);
+    background-color: white;
+}
+.color-one{
+    background-color: red;
+    grid-column: 8/14;
+    grid-row: 6/12;
+    border-radius: 100%;
+}
+.niger{
+    display: grid;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16,30px);
+
+}
+.firstN{
+    grid-row: 1/4;
+    grid-column: 1/18;
+    background-color: orange;
+}
+.secondN{
+    grid-row: 5/8;
+    grid-column: 8/11;
+    background-color: orange;
+    border-radius: 100%; 
+}
+.thirdN{
+    grid-row: 9/12;
+    grid-column: 1/18;
+    background-color: green;
+}
